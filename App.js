@@ -7,7 +7,7 @@ import NewsFeed from './src/components/NewsFeed';
 const App = () => {
 	return (
 		<View style={{ flex: 1, backgroundColor: '#F3F1F6' }}>
-			<Header headerTitle={'DETIKINET RSS'} />
+			<Header />
 				<NewsFeed />
 		</View>
 	);

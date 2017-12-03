@@ -18,7 +18,9 @@ const NewsDetail = (props) => {
       title
    } = props.news;
 
-   const thumbnail = props.news.enclosure['0'].$.url;
+   const url = props.news.enclosure['0'].$.url;
+   const thumbnail = url.replace(/^http:\/\//i, 'https://');
+   
    const link = props.news.link['0'];
 
    const onTitlePressed = () => {

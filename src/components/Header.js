@@ -16,16 +16,14 @@ const styles = {
       alignItems: 'center',
       backgroundColor: '#3E206B',
       elevation: 2,
-      marginTop: 20,
       shadowColor: '#083861',
-      shadowOffset: { width: 0, height: 10 },
       shadowOpacity: 0.9
    },
    
    textStyle: {
       color: '#F9F9F9',
-      fontSize: 22,
-      padding: 1
+      fontSize: 25,
+      padding: 5
    }
 };
 

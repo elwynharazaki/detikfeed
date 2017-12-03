@@ -10,7 +10,7 @@ class NewsFeed extends Component {
 
    componentWillMount() {
       const url = 'https://rss.detik.com/index.php/inet';
-		
+      
 		axios.get(url)
 			.then(response => 
 				parseString(response.data, (err, result) => {
