@@ -14,7 +14,7 @@ const Header = (props) => {
 const styles = {
    headerStyle: {
       alignItems: 'center',
-      backgroundColor: 'transparent',
+      backgroundColor: 'transparent'
    },
    
    textStyle: {
